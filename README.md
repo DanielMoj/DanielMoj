@@ -11,8 +11,9 @@ Aus der Pharmakometrie bringe ich eine Problemstruktur mit, die im Controlling u
 | [liquiditaetsplanung](https://github.com/DanielMoj/liquiditaetsplanung) | Probabilistische Liquiditätsplanung mit Monte-Carlo-Simulation (R/Shiny) | Version 1.0.0, Prototyp | [10.5281/zenodo.23352914](https://doi.org/10.5281/zenodo.23352914) |
 | [pbpk-literature](https://github.com/DanielMoj/pbpk-literature) | RAG-Wissensbasis mit MCP-Server für die Recherche in Fachliteratur (Python) | Version 1.0.0, Prototyp im Eigeneinsatz | [10.5281/zenodo.23352916](https://doi.org/10.5281/zenodo.23352916) |
 | [harness-template](https://github.com/DanielMoj/harness-template) | Vorlage für eine Multi-Agenten-Entwicklungsumgebung mit ausführbaren Abnahmeprüfungen (Bash) | Version 1.0.1, Prototyp | [10.5281/zenodo.23352918](https://doi.org/10.5281/zenodo.23352918) |
+| [llmsa](https://github.com/DanielMoj/llmsa) | Messsystemanalyse für Auswertungspipelines auf Basis großer Sprachmodelle: Gage R&R, Übereinstimmung, Robustheit, Regelkarten (R-Paket) | In Entwicklung, [Arbeitsstand](https://github.com/DanielMoj/llmsa/blob/main/STATUS.md) | Folgt mit dem ersten Release |
 
-Mein Anteil sind jeweils Architektur sowie Prüfung und Freigabe, bei den beiden Anwendungen außerdem die fachliche Spezifikation. Die README-Dateien nennen den Eigenanteil im Einzelnen und beschreiben, was die Tests prüfen und wo die Grenzen liegen.
+Mein Anteil sind jeweils Architektur sowie Prüfung und Freigabe, bei liquiditaetsplanung, pbpk-literature und llmsa außerdem die fachliche Spezifikation. Bei den drei Repositories mit DOI nennt die README den Eigenanteil im Einzelnen und beschreibt, was die Tests prüfen und wo die Grenzen liegen. llmsa entsteht mit einer weiterentwickelten Fassung von harness-template; Spezifikation, Entscheidungsprotokolle und Abnahmetests der einzelnen Arbeitspakete liegen im Repository.
 
 ## Veröffentlichungen
 
@@ -26,4 +27,4 @@ LinkedIn: [linkedin.com/in/mojdaniel](https://www.linkedin.com/in/mojdaniel)
 
 ---
 
-*English:* Pharmacometrician and biostatistician (Dr. rer. nat., M.Sc.). The repositories are documented in German; each README begins with an English summary.
+*English:* Pharmacometrician and biostatistician (Dr. rer. nat., M.Sc.). The three repositories with a DOI are documented in German, and each README begins with an English summary. llmsa, an R package in development that validates pipelines built on large language models as measurement systems, is documented in English.
